@@ -1,0 +1,60 @@
+body{
+background-color:#FBEAFF;
+font-family: 'Nunito', sans-serif;
+
+}
+.navbar-brand{
+	
+	font-size: 2.5rem;
+	font-weight: bold;
+	padding-left: 80px;
+
+}
+.nav-item{
+	padding: 0 18px;
+}
+.nav-link{
+	font-size: 1.2rem;
+	font-family: 'Nunito', sans-serif;
+}
+
+#ctl00_ContentPlaceHolder1_div_fees_info{
+	padding-left: 100px;
+	padding-top: 30px;
+
+}
+.border-left-primary {
+    border-left: .25rem solid #132f57 !important;
+}
+#ctl00_ContentPlaceHolder1_div_General_Info{
+	padding-top:30px;
+
+}
+
+#ctl00_ContentPlaceHolder1_div_academic{
+	padding-top: 30px;
+}
+#ctl00_ContentPlaceHolder1_div_transportation{
+	margin-left: 250px;
+}
+#ctl00_ContentPlaceHolder1_div_non_academic{
+	margin-left: 250px;
+}
+.blink {
+	
+    text-decoration: blink;
+    -webkit-animation-name: blinker;
+    -webkit-animation-duration: 0.6s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: ease-in-out;
+    -webkit-animation-direction: alternate;
+}
+
+@keyframes blinker{
+0% {
+    opacity: 1.0;
+}
+100% {
+    opacity: 0.0;
+}
+}
